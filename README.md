@@ -1,14 +1,10 @@
-# Project Name
+# Django REST Framework
 
 ---
 ## Software Requirements
-- Name of Software: Software v3.7.*
-
-
----
-## OutPut of File: FileName.html
-	- Some description..
-<kbd><img src="/imgs-readme/img-black-blank_v1-1.jpg" alt="img_alternative_txt_v1-1" title="hover_title.."></img></kbd>
+- Python version: 3.7.3
+- Django version: 2.2.3
+- Django REST Framework version: 3.10.1
 
 
 ---

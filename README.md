@@ -26,6 +26,12 @@
 
 
 ---
+## Listing HyperLinkModelSerializer Records
+	- hit http://localhost:8000/languages/
+<kbd><img src="/imgs-readme/hyperlink-model-serializer_v1-1.png"></img></kbd>
+
+
+---
 ## Listing\Show Single Records
 	- hit http://localhost:8000/languages/4/
 <kbd><img src="/imgs-readme/select-single-data-set_v1-1.png"></img></kbd>

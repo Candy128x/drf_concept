@@ -69,3 +69,9 @@ REST_FRAMEWORK = {
 ---
 ### use JWT (Json Web Token)
 - => pip3 install djangorestframework_simplejwt
+
+
+---
+### make send.py file
+- => pip3 install requests
+

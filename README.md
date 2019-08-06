@@ -59,3 +59,9 @@
 ## Postman, Delete single set of data
 	- hit http://localhost:8000/languages
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-13-05.png"></img></kbd>
+
+
+---
+## Postman, Disable edit feature for non-logedIn user
+	- hit http://localhost:8000/languages
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-13-05_v2-1.gif"></img></kbd>

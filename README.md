@@ -53,3 +53,9 @@
 ## Postman, Update single set of data
 	- hit http://localhost:8000/languages
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-06-25.png"></img></kbd>
+
+
+---
+## Postman, Delete single set of data
+	- hit http://localhost:8000/languages
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-13-05.png"></img></kbd>

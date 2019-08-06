@@ -70,7 +70,7 @@
 ---
 ## Postman, Disable edit feature for non-logedIn user (gif img)
 	- hit http://localhost:8000/languages
-<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-22-24_v2-1.gif"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-22-24_v2-1.gif"></img></kbd><br>
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-13-05_v2-1.gif"></img></kbd>
 
 
@@ -89,7 +89,7 @@
 ## Token generation
 	- Hit localhost:8000/api/token/
 	- for Debug token: https://jwt.io/
-<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 16-49-05.png"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 16-49-05.png"></img></kbd><br>
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 17-24-19.png"></img></kbd>
 
 

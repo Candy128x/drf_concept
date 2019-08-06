@@ -70,11 +70,17 @@
 ---
 ## Postman, Disable edit feature for non-logedIn user (gif img)
 	- hit http://localhost:8000/languages
-<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-13-05_v2-1.gif"></img></kbd>
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-22-24_v2-1.gif"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-13-05_v2-1.gif"></img></kbd>
 
 
 ---
 ## Postman, Disable update/edit feature for non-logedIn user
 	- hit http://localhost:8000/languages
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-42-28.png"></img></kbd>
+
+
+---
+## User must be Authenticated
+	- After add in `settting.py` file. code: 'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 13-09-38.png"></img></kbd>

@@ -2,6 +2,13 @@
 
 - Some points
 
+
+---
+- For API Authorization
+- @ref: 
+>https://www.youtube.com/watch?v=yiYpFMk9QdA
+
+
 ---
 # Note for Developer
 

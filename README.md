@@ -84,3 +84,17 @@
 ## User must be Authenticated
 	- After add in `settting.py` file. code: 'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-06 13-09-38.png"></img></kbd>
+
+---
+## Token generation
+	- Hit localhost:8000/api/token/
+	- for Debug token: https://jwt.io/
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 16-49-05.png"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 17-24-19.png"></img></kbd>
+
+
+---
+## Postman, Fetch all data using Token
+	- Hit localhost:8000/languages/
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 17-31-46_v2-1.gif"></img></kbd>
+

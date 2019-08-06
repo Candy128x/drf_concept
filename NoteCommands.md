@@ -51,3 +51,21 @@
 ---
 - => python3 manage.py makemigrations
 - => python3 manage.py migrate
+
+
+---
+- Login user to access or take action on data
+- add in `projtest/urls.py`, code: `path('api-auth/', include('rest_framework.urls'))`
+- add in `languages/views.py`, code: `permission_classes = (permissions.IsAuthenticatedOrReadOnly,)`
+- add in `projtest/settings.py`, 
+- code: 
+```
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
+}
+```
+
+
+---
+### use JWT (Json Web Token)
+- => pip3 install djangorestframework_simplejwt

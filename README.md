@@ -47,3 +47,9 @@
 ## Postman insert single set of data
 	- hit http://localhost:8000/languages
 <kbd><img src="/imgs-readme/postman-set-insert-single-data_v1-1.jpg"></img></kbd>
+
+
+---
+## Postman, Update single set of data
+	- hit http://localhost:8000/languages
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-06 12-06-25.png"></img></kbd>

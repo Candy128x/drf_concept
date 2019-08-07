@@ -75,3 +75,27 @@ REST_FRAMEWORK = {
 ### make send.py file
 - => pip3 install requests
 
+
+---
+### Relationship
+- Add table struct in model.py
+
+- => python3 manage.py migrations
+- op:
+```
+Migrations for 'languages':
+  languages/migrations/0002_auto_20190807_0600.py
+    - Create model Paradigm
+    - Alter field paradigm on language
+    - Create model Programmer
+
+```
+
+- => python3 manage.py migrate
+```
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, languages, sessions
+Running migrations:
+  Applying languages.0002_auto_20190807_0600... OK
+```
+

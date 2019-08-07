@@ -14,4 +14,6 @@ SELECT * FROM table_name ORDER BY 1 DESC;
 ---
 - select language data by desc
 - => SELECT * FROM languages_language ORDER BY 1 DESC;
-
+- => SELECT * FROM languages_paradigm ORDER BY 1 DESC;
+- => SELECT * FROM languages_programmer ORDER BY 1 DESC;
+- => SELECT * FROM languages_programmer_languages ORDER BY 1 DESC;

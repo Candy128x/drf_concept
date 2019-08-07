@@ -16,6 +16,12 @@
 
 
 ---
+- Relationship
+- @ref:
+>https://www.youtube.com/watch?v=QB9gGEwxxM4
+
+
+---
 # Note for Developer
 
 - Road map of project.. or
@@ -34,3 +40,10 @@
 ## Serializer 
 - JSON object in py it's dictionary, Parse data over http
  
+
+---
+## Database Design
+
+>- languages_language [table]
+>- id (PK)
+>- paradigm

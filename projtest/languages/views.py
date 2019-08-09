@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets, permissions
 from .models import Language, Paradigm, Programmer
-from .serializers import LanguageSerializer, ParadigmSerializer, ProgrammerSerializer
+from .serializers import LanguageSerializer, ParadigmSerializer, ProgrammerSerializer, ProgLangSerializer
 
 # Create your views here.
 
@@ -20,5 +20,10 @@ class ParadigmView(viewsets.ModelViewSet):
 class ProgrammerView(viewsets.ModelViewSet):
     queryset = Programmer.objects.all()
     serializer_class = ProgrammerSerializer
+
+
+class ProgLangView(viewsets.ModelViewSet):
+    queryset = Programmer.objects.all()
+    serializer_class = ProgLangSerializer
 
 

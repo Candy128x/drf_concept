@@ -18,3 +18,12 @@ class ProgrammerSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Programmer
         fields = ('id', 'url', 'name', 'languages')
+
+
+class ProgLangSerializer(serializers.ModelSerializer):
+    prog = ProgrammerSerializer(read_only=True)
+
+    class Meta:
+        model = Programmer
+        fields = ('__all__')
+        depth = 3

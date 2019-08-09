@@ -99,3 +99,7 @@ Running migrations:
   Applying languages.0002_auto_20190807_0600... OK
 ```
 
+
+---
+## emp API
+- => python3 manage.py startapp empapi

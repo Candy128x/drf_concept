@@ -103,3 +103,5 @@ Running migrations:
 ---
 ## emp API
 - => python3 manage.py startapp empapi
+- => python3 manage.py makemigrations
+- => python3 manage.py migrate

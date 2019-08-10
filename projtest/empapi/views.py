@@ -43,5 +43,6 @@ class CompListSearchView(viewsets.ModelViewSet):
     # queryset = CompanyList.objects.filter(name='LTI') # OR
     queryset = CompanyList.objects.all()
     serializer_class = CompListSerializer
+    # print(str(queryset.query))
     filter_backends = [filters.SearchFilter]
     search_fields = ['name', 'salary', 'date_of_join', 'experience']

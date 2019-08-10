@@ -16,10 +16,15 @@ class EmpInfo(models.Model):
     contact_no  = models.CharField(max_length=12)
     extra       = models.TextField()
 
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['username'], name='username_unique')
+        ]
 
-class CompanyInfo(models.Model):
-    name = models.CharField(max_length=256)
-    emp_id = models.ForeignKey(EmpInfo, on_delete=models.CASCADE())
-    salary = models.BigIntegerField()
+
+class CompanyList(models.Model):
+    name        = models.CharField(max_length=256)
+    emp         = models.ForeignKey(EmpInfo, on_delete=models.CASCADE)
+    salary      = models.BigIntegerField()
     date_of_join = models.DateField()
-    experience = models.IntegerField()
+    experience  = models.IntegerField()
